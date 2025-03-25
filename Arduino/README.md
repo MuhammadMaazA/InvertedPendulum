@@ -29,18 +29,16 @@ This directory contains the firmware for controlling the physical inverted pendu
 
 ## Controller Parameters
 
-The implementation includes three different controllers:
+For optimal performance, we recommend the following parameters:
 
 ### PID Controller
-```cpp
-// Default PID gains
-#define KP 1.2
-#define KI 1.63
-#define KD 0.22
+- Kp = 1.2
+- Ki = 1.63
+- Kd = 0.22
 
-### Pole Placement Controller
-cppCopy// Pole placement gains calculated for poles at [-3, -4, -2, -3.5]
-const float K[] = {12.5, 3.8, 87.2, 19.1};
-Nonlinear Controller
-cppCopy// Energy-based nonlinear controller parameter
-#define K2 1.0
+### Pole Placement
+- Poles at [-3, -4, -2, -3.5]
+- Resulting gains: K = [12.5, 3.8, 87.2, 19.1]
+
+### Nonlinear Controller
+- Energy coefficient k2 = 1.0

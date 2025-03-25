@@ -15,8 +15,8 @@ The inverted pendulum project demonstrates the application of systems engineerin
 
 ## Team Members
 
-- Daniel Helmi
 - Muhammad Maaz
+- Daniel Helmi
 - Arjun Bhaduri
 - Rehan Agrawal
 
