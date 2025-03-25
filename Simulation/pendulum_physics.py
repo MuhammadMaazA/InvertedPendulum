@@ -7,9 +7,9 @@ from controllers import PIDController, PoleController, NonlinearController
 class InvertedPendulum:
     def __init__(self):
         #system parameters
-        self.m = 0.1       #pendulum bob mass
-        self.M = 0.5       #cart mass
-        self.L = 0.5       #pendulum length
+        self.m = 0.093       #pendulum bob mass
+        self.M = 1.081       #cart mass
+        self.L = 0.75       #pendulum length
         self.g = 9.81      #gravity
 
         # friction parameters

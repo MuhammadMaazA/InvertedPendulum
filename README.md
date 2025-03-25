@@ -10,8 +10,6 @@ The inverted pendulum project demonstrates the application of systems engineerin
 
 - **[Arduino](/Arduino)**: Contains the firmware for controlling the physical inverted pendulum system
 - **[Simulation](/Simulation)**: Contains Python code to simulate the inverted pendulum dynamics and controllers
-- **[SysML](/SysML)**: Contains the Model-Based Systems Engineering artifacts created with Eclipse Papyrus
-- **[ProjectManagement](/ProjectManagement)**: Contains project planning and management files
 
 ## Team Members
 
