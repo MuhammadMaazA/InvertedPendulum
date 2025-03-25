@@ -26,7 +26,3 @@ The inverted pendulum project demonstrates the application of systems engineerin
 - MBSE with SysML diagrams
 - Real-time visualization and interactive parameter tuning
 - Physical prototype implementation with ELEGOO components
-
-## Project Report
-
-For a detailed explanation of the project, including theoretical background, implementation details, and performance analysis, please refer to our [Project Report](https://github.com/MuhammadMaazA/InvertedPendulum/blob/main/ProjectReport.pdf).
